@@ -1,0 +1,82 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class MockDatabase {
+
+    public List<MainController.Page> loadPages() {
+        List<MainController.Page> pages = new ArrayList<>();
+
+        pages.add(new MainController.Page(
+                "Java Search Engine",
+                "https://example.com/java-search-engine",
+                "This page explains how to build a java search engine using ranking logic and engine design.",
+                Arrays.asList("java", "search engine", "ranking", "algorithm")
+        ));
+
+        pages.add(new MainController.Page(
+                "Ranking Algorithm in Java",
+                "https://example.com/ranking-algorithm-java",
+                "This article covers ranking, engine logic, search result ordering, comparator sorting, and java code.",
+                Arrays.asList("java", "ranking", "search", "comparator")
+        ));
+
+        pages.add(new MainController.Page(
+                "Machine Learning Ranking",
+                "https://example.com/ml-ranking",
+                "Machine learning ranking systems use dynamic scoring, softmax, adaptive weighting, and search models.",
+                Arrays.asList("machine learning", "ranking", "softmax", "weighting")
+        ));
+
+        pages.add(new MainController.Page(
+                "Data Mining Algorithm",
+                "https://example.com/data-mining-algorithm",
+                "This page discusses data mining algorithm concepts and search techniques.",
+                Arrays.asList("data mining", "algorithm", "search")
+        ));
+
+        pages.add(new MainController.Page(
+                "Search Engine Design",
+                "https://example.com/search-engine-design",
+                "Design of search engines includes indexing, ranking, metadata analysis, and retrieval systems.",
+                Arrays.asList("search engine", "design", "metadata", "retrieval")
+        ));
+
+        pages.add(new MainController.Page(
+                "Java 8 Features",
+                "https://example.com/java-8-features",
+                "Java 8 introduced lambda expressions, stream API, and improved collections processing.",
+                Arrays.asList("java", "java 8", "streams", "lambda")
+        ));
+
+        pages.add(new MainController.Page(
+                "Blockchain Consensus",
+                "https://example.com/blockchain-consensus",
+                "Consensus algorithms in blockchain include proof of work and proof of stake.",
+                Arrays.asList("blockchain", "consensus", "algorithm")
+        ));
+
+        pages.add(new MainController.Page(
+                "Database Management Systems",
+                "https://example.com/database-management",
+                "Database systems store structured data and allow indexing, retrieval, and optimized search.",
+                Arrays.asList("database", "indexing", "search", "data")
+        ));
+
+        pages.add(new MainController.Page(
+                "AI Model Optimization",
+                "https://example.com/ai-model-optimization",
+                "AI model optimization includes weighting, score normalization, and feature ranking.",
+                Arrays.asList("AI", "model", "optimization", "ranking")
+        ));
+
+        pages.add(new MainController.Page(
+                "Engine Performance Basics",
+                "https://example.com/engine-performance",
+                "This page explains engine performance, tuning, and efficiency basics.",
+                Arrays.asList("engine", "performance", "efficiency")
+        ));
+
+        return pages;
+    }
+}
