@@ -11,7 +11,7 @@ public class Main {
 
         while (true) {
             System.out.println("\n==============================");
-            System.out.println(" SEARCH ENGINE SYSTEM ");
+            System.out.println("    SEARCH ENGINE SYSTEM ");
             System.out.println("==============================");
             System.out.println("1. Search");
             System.out.println("2. Run Test Cases");
